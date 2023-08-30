@@ -14,6 +14,7 @@ describe "test de roxana"{
 	}
 	
 	test "anaMaria no esta economicamene estable"{
+		
 		anaMaria.cambiarEstadoEconomico()
 		assert.equals(250, roxana.precioViaje(anaMaria, 10))
 	}
@@ -166,7 +167,5 @@ describe "test de lucia"{
 		lucia.estaReemplazando(roxana)
 		assert.equals(180,lucia.precioViaje(ludmila,10))
 	}
-	
-	
 }
 

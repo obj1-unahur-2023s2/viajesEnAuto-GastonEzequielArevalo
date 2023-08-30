@@ -28,6 +28,7 @@ describe "Testing de anaMaria"{
 }
 
 describe "Testing de teresa"{
+	
 	test "Precio por kilometros sin cambios"{
 		assert.equals(22,teresa.pesosPorKilometro())	
 	}

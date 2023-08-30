@@ -38,5 +38,16 @@ object teresa{
 	}
 }
 
+object melina{
+	var trabajaPara
+
+	method trabajaPara(cliente){
+		trabajaPara = cliente
+	}
+
+	method precioPorKm() = trabajaPara.precioPorKm() -3	
+}
+
+
 
 
